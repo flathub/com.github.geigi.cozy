@@ -16,6 +16,16 @@
      ],
     "modules": [
         {
+          "name": "gst-plugins-good",
+          "config-opts": [ "--disable-gtk-doc"],
+          "cleanup": [ "*.la", "/share/gtk-doc" ],
+          "sources": [{
+            "type": "archive",
+            "url": "https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.12.3.tar.xz",
+            "sha256": "13e7f479296891fef5a686438f20ba7d534680becf2269ecc5ee24aa83b45f03"
+            }]
+        },
+        {
           "name": "gst-libav",
           "config-opts": [
             "--disable-gtk-doc"
@@ -65,8 +75,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/geigi/cozy/archive/0.4.4.tar.gz",
-                    "sha256": "0e9d520e7ffd0629e02a2fa67941a03885207bcd64ace506ad6c370fbd040c00"
+                    "url": "https://github.com/geigi/cozy/archive/0.4.6.tar.gz",
+                    "sha256": "00977122c51f8df08d3249dea400c560685507a79caab95ce4176d7dcd3d6786"
                 }
             ]
         }
