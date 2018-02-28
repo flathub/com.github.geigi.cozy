@@ -48,8 +48,8 @@
             "sources": [
               {
                 "type": "archive",
-                "url": "https://pypi.python.org/packages/7a/bc/aafce76cae9362dccf70e35c16a6cc11d114ebb640bbb86d76255be5c0d6/peewee-2.10.2.tar.gz",
-                "sha256": "2342067f48a779e35956a44cd547df883dda35153daa9fe994d970585aaec281"
+                "url": "https://pypi.python.org/packages/d8/e3/3bcefcf0d0506f5df73e5653e0fb1732b37315177e689feb502ff2304b8f/peewee-3.1.1.tar.gz",
+                "sha256": "721d4d221bebdc0ed82484c36185dd83d048cc2553df7f91047bf5a53f6c3066"
               }
             ]
         },
@@ -64,8 +64,8 @@
             "sources": [
               {
                 "type": "archive",
-                "url": "https://pypi.python.org/packages/61/cb/df5b1ed5276d758684b245ecde990b05ea7470d4fa9530deb86a24cf723b/mutagen-1.39.tar.gz",
-                "sha256": "9da92566458ffe5618ffd26167abaa8fd81f02a7397b8734ec14dfe14e8a19e4"
+                "url": "https://pypi.python.org/packages/2c/6a/0b2caf9364db074b616b1b8c26ce7166a883c21b0e40bd50f6db02307afe/mutagen-1.40.0.tar.gz",
+                "sha256": "b2a2c2ce87863af12ed7896f341419cd051a3c72c3c6733db9e83060dcadee5e"
               }
             ]
         },
@@ -75,8 +75,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/geigi/cozy/archive/0.5.2.tar.gz",
-                    "sha256": "69d92fbce4bb81835f76243dab926999fefd2f1619d121150993d9d158704b55"
+                    "url": "https://github.com/geigi/cozy/archive/0.5.3.tar.gz",
+                    "sha256": "91b43ec8ecee63ed508842bc0355fa94c7d1365f2097049db3be1a9decb6fbf0"
                 }
             ]
         }
