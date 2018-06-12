@@ -11,7 +11,7 @@
         "--device=dri",
         "--share=network",
         "--socket=pulseaudio",
-        "--filesystem=home",
+        "--filesystem=host",
         "--filesystem=xdg-run/dconf",
         "--filesystem=~/.config/dconf:ro",
         "--talk-name=ca.desrt.dconf",
@@ -53,8 +53,8 @@
             "sources": [
               {
                 "type": "archive",
-                "url": "https://pypi.python.org/packages/d8/e3/3bcefcf0d0506f5df73e5653e0fb1732b37315177e689feb502ff2304b8f/peewee-3.1.1.tar.gz",
-                "sha256": "721d4d221bebdc0ed82484c36185dd83d048cc2553df7f91047bf5a53f6c3066"
+                "url": "https://files.pythonhosted.org/packages/8c/dc/e3e45fcbf8ce8b3ba63e87ef8ef972fcf5e30048b4dffd21697fd86d4cdd/peewee-3.5.0.tar.gz",
+                "sha256": "7bd76cf2f7fdda898ed5235774f6edd8104a712ecad9883ba91dfef8ad85d3e3"
               }
             ]
         },
@@ -80,8 +80,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/geigi/cozy/archive/0.5.5.tar.gz",
-                    "sha256": "9156592386aaa8ab6acddfad186b6427edad0d17808f5adb169dd1dc19727701"
+                    "url": "https://github.com/geigi/cozy/archive/0.6.0.tar.gz",
+                    "sha256": "c664546244c182204f1db23fc677b56146315c89a1f7a116d35de5d9d94cf1b6"
                 }
             ]
         }
