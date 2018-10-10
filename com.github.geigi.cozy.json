@@ -80,8 +80,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/geigi/cozy/archive/0.6.1.tar.gz",
-                    "sha256": "067a31f78c14ca406e161f422ee51c9e81cdcb7c3d6cc240645dd6ede322aaec"
+                    "url": "https://github.com/geigi/cozy/archive/0.6.1b.tar.gz",
+                    "sha256": "bb609366adbcedad0473a7a6ecfcfe811c365018e72745877c7ed03746c01da2"
                 }
             ]
         }
