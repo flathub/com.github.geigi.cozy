@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.geigi.cozy",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.28",
+    "runtime-version": "3.30",
     "sdk": "org.gnome.Sdk",
     "command": "com.github.geigi.cozy",
     "finish-args": [
@@ -26,8 +26,8 @@
           "cleanup": [ "*.la", "/share/gtk-doc" ],
           "sources": [{
             "type": "archive",
-            "url": "https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.12.3.tar.xz",
-            "sha256": "13e7f479296891fef5a686438f20ba7d534680becf2269ecc5ee24aa83b45f03"
+            "url": "https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.14.4.tar.xz",
+            "sha256": "5f8b553260cb0aac56890053d8511db1528d53cae10f0287cfce2cb2acc70979"
             }]
         },
         {
@@ -38,8 +38,8 @@
           "cleanup": [ "*.la", "/share/gtk-doc" ],
           "sources": [{
             "type": "archive",
-            "url": "https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.12.3.tar.xz",
-            "sha256": "015ef8cab6f7fb87c8fb42642486423eff3b6e6a6bccdcd6a189f436a3619650"
+            "url": "https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.14.4.tar.xz",
+            "sha256": "dfd78591901df7853eab7e56a86c34a1b03635da0d3d56b89aa577f1897865da"
           }]
         },
         {
@@ -53,8 +53,8 @@
             "sources": [
               {
                 "type": "archive",
-                "url": "https://files.pythonhosted.org/packages/8c/dc/e3e45fcbf8ce8b3ba63e87ef8ef972fcf5e30048b4dffd21697fd86d4cdd/peewee-3.5.0.tar.gz",
-                "sha256": "7bd76cf2f7fdda898ed5235774f6edd8104a712ecad9883ba91dfef8ad85d3e3"
+                "url": "https://files.pythonhosted.org/packages/e7/c3/db8019238328f21cdf6abd803687fd67ccb915c5aaf139b275fdf73e15b9/peewee-3.8.1.tar.gz",
+                "sha256": "c80208d6ba2191728654cb5d2e85cd58e7dcad6a2fa1807868dd984ccef2586d"
               }
             ]
         },
@@ -69,8 +69,8 @@
             "sources": [
               {
                 "type": "archive",
-                "url": "https://pypi.python.org/packages/2c/6a/0b2caf9364db074b616b1b8c26ce7166a883c21b0e40bd50f6db02307afe/mutagen-1.40.0.tar.gz",
-                "sha256": "b2a2c2ce87863af12ed7896f341419cd051a3c72c3c6733db9e83060dcadee5e"
+                "url": "https://files.pythonhosted.org/packages/30/4c/5ad1a6e1ccbcfaf6462db727989c302d9d721beedd9b09c11e6f0c7065b0/mutagen-1.42.0.tar.gz",
+                "sha256": "bb61e2456f59a9a4a259fbc08def6d01ba45a42da8eeaa97d00633b0ec5de71c"
               }
             ]
         },
@@ -80,8 +80,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/geigi/cozy/archive/0.6.1b.tar.gz",
-                    "sha256": "bb609366adbcedad0473a7a6ecfcfe811c365018e72745877c7ed03746c01da2"
+                    "url": "https://github.com/geigi/cozy/archive/0.6.6.tar.gz",
+                    "sha256": "4c37de574271c1d6368751986405f6f61df8e7f0bb59f0d01fc92112bca54f08"
                 }
             ]
         }
