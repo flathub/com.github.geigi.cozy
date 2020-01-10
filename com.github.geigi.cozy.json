@@ -21,17 +21,6 @@
      ],
     "modules": [
         {
-            "name": "cozy",
-            "buildsystem": "meson",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/geigi/cozy/archive/0.6.11.tar.gz",
-                    "sha256": "02c8ef89e80e6cc8dd384b10a2310a4ea7a15be92b74825f6e2cf4daeba3747c"
-                }
-            ]
-        },
-        {
           "name": "gst-plugins-good",
           "config-opts": [ "--disable-gtk-doc"],
           "cleanup": [ "*.la", "/share/gtk-doc" ],
@@ -99,6 +88,17 @@
                 "url": "https://files.pythonhosted.org/packages/30/4c/5ad1a6e1ccbcfaf6462db727989c302d9d721beedd9b09c11e6f0c7065b0/mutagen-1.42.0.tar.gz",
                 "sha256": "bb61e2456f59a9a4a259fbc08def6d01ba45a42da8eeaa97d00633b0ec5de71c"
               }
+            ]
+        },
+        {
+            "name": "cozy",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/geigi/cozy/archive/0.6.11.tar.gz",
+                    "sha256": "02c8ef89e80e6cc8dd384b10a2310a4ea7a15be92b74825f6e2cf4daeba3747c"
+                }
             ]
         }
     ]
