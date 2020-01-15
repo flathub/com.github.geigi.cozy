@@ -77,8 +77,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/geigi/cozy/archive/0.6.11.tar.gz",
-          "sha256": "02c8ef89e80e6cc8dd384b10a2310a4ea7a15be92b74825f6e2cf4daeba3747c"
+          "url": "https://github.com/geigi/cozy/archive/0.6.12.tar.gz",
+          "sha256": "ec868e20784bfc31d8d3ae28c0249bd4b60932d9c74979d6780344a60fd709c7"
         }
       ]
     }
