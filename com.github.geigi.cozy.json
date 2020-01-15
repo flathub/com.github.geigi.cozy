@@ -1,59 +1,22 @@
 {
   "app-id": "com.github.geigi.cozy",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.32",
+  "runtime-version": "3.34",
   "sdk": "org.gnome.Sdk",
   "command": "com.github.geigi.cozy",
   "finish-args": [
     "--share=ipc",
-    "--socket=x11",
+    "--socket=fallback-x11",
     "--socket=wayland",
     "--device=dri",
     "--share=network",
     "--socket=pulseaudio",
     "--filesystem=host",
-    "--filesystem=xdg-run/dconf",
-    "--filesystem=~/.config/dconf:ro",
-    "--talk-name=ca.desrt.dconf",
     "--talk-name=org.freedesktop.Notifications",
     "--own-name=org.mpris.MediaPlayer2.Cozy",
-    "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+    "--metadata=X-DConf=migrate-path=/com/github/geigi/cozy/"
   ],
   "modules": [
-    {
-      "name": "gst-plugins-good",
-      "config-opts": [
-        "--disable-gtk-doc"
-      ],
-      "cleanup": [
-        "*.la",
-        "/share/gtk-doc"
-      ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.14.4.tar.xz",
-          "sha256": "5f8b553260cb0aac56890053d8511db1528d53cae10f0287cfce2cb2acc70979"
-        }
-      ]
-    },
-    {
-      "name": "gst-libav",
-      "config-opts": [
-        "--disable-gtk-doc"
-      ],
-      "cleanup": [
-        "*.la",
-        "/share/gtk-doc"
-      ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.14.4.tar.xz",
-          "sha256": "dfd78591901df7853eab7e56a86c34a1b03635da0d3d56b89aa577f1897865da"
-        }
-      ]
-    },
     {
       "name": "python-distro",
       "ensure-writable": [
