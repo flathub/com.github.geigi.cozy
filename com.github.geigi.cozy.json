@@ -70,6 +70,20 @@
       ]
     },
     {
+      "name": "python3-pytz",
+      "buildsystem": "simple",
+      "build-commands": [
+        "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} pytz"
+      ],
+      "sources": [
+        {
+          "type": "file",
+          "url": "https://files.pythonhosted.org/packages/e7/f9/f0b53f88060247251bf481fa6ea62cd0d25bf1b11a87888e53ce5b7c8ad2/pytz-2019.3-py2.py3-none-any.whl",
+          "sha256": "1c557d7d0e871de1f5ccd5833f60fb2550652da6be2693c1e02300743d21500d"
+        }
+      ]
+    },
+    {
       "name": "python-peewee",
       "ensure-writable": [
         "/lib/python*/site-packages/easy-install.pth"
