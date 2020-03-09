@@ -19,20 +19,16 @@
   ],
   "modules": [
     {
-      "name": "python-distro",
-      "ensure-writable": [
-        "/lib/python*/site-packages/easy-install.pth"
-      ],
+      "name": "python3-distro",
       "buildsystem": "simple",
       "build-commands": [
-        "python3 setup.py build",
-        "python3 setup.py install --prefix=/app"
+        "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} distro"
       ],
       "sources": [
         {
-          "type": "archive",
-          "url": "https://files.pythonhosted.org/packages/ca/e3/78443d739d7efeea86cbbe0216511d29b2f5ca8dbf51a6f2898432738987/distro-1.4.0.tar.gz",
-          "sha256": "362dde65d846d23baee4b5c058c8586f219b5a54be1cf5fc6ff55c4578392f57"
+          "type": "file",
+          "url": "https://files.pythonhosted.org/packages/ea/35/82f79b92fa4d937146c660a6482cee4f3dfa1f97ff3d2a6f3ecba33e712e/distro-1.4.0-py2.py3-none-any.whl",
+          "sha256": "eedf82a470ebe7d010f1872c17237c79ab04097948800029994fa458e52fb4b4"
         }
       ]
     },
@@ -85,38 +81,30 @@
       ]
     },
     {
-      "name": "python-peewee",
-      "ensure-writable": [
-        "/lib/python*/site-packages/easy-install.pth"
-      ],
+      "name": "python3-peewee",
       "buildsystem": "simple",
       "build-commands": [
-        "python3 setup.py build",
-        "python3 setup.py install --prefix=/app"
+        "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} peewee"
       ],
       "sources": [
         {
-          "type": "archive",
-          "url": "https://files.pythonhosted.org/packages/a5/80/c84b0fa212a003db91c87822fd8559fed78e214c3c8f1a97a095ee711a95/peewee-3.10.0.tar.gz",
-          "sha256": "35bc7a1373b7e5c55fa984e852cddaff9e353a42cbb0b5e0c41a5060928fd192"
+          "type": "file",
+          "url": "https://files.pythonhosted.org/packages/d4/30/0083f0e484902d118927236497c5f55c14a46c2a0e1b95083d26e5608371/peewee-3.13.1.tar.gz",
+          "sha256": "9492af4d1f8e18a7fa0e930960315b38931286ea0f1659bbd5503456cffdacde"
         }
       ]
     },
     {
-      "name": "python-mutagen",
-      "ensure-writable": [
-        "/lib/python*/site-packages/easy-install.pth"
-      ],
+      "name": "python3-mutagen",
       "buildsystem": "simple",
       "build-commands": [
-        "python3 setup.py build",
-        "python3 setup.py install --prefix=/app"
+        "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} mutagen"
       ],
       "sources": [
         {
-          "type": "archive",
-          "url": "https://files.pythonhosted.org/packages/30/4c/5ad1a6e1ccbcfaf6462db727989c302d9d721beedd9b09c11e6f0c7065b0/mutagen-1.42.0.tar.gz",
-          "sha256": "bb61e2456f59a9a4a259fbc08def6d01ba45a42da8eeaa97d00633b0ec5de71c"
+          "type": "file",
+          "url": "https://files.pythonhosted.org/packages/49/d7/245d48972216d000238d6ccc09142bc1be88e707b38e8fb19a0155292cb6/mutagen-1.44.0-py3-none-any.whl",
+          "sha256": "1cfc9f40cc0c89f051e3f3dbd5d9057a193c98433cf6c95e02d7f5a395615c01"
         }
       ]
     },
