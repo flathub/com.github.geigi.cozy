@@ -1,7 +1,7 @@
 {
   "app-id": "com.github.geigi.cozy",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.34",
+  "runtime-version": "3.36",
   "sdk": "org.gnome.Sdk",
   "command": "com.github.geigi.cozy",
   "finish-args": [
@@ -28,8 +28,8 @@
       "sources": [
         {
           "type": "file",
-          "url": "https://files.pythonhosted.org/packages/ea/35/82f79b92fa4d937146c660a6482cee4f3dfa1f97ff3d2a6f3ecba33e712e/distro-1.4.0-py2.py3-none-any.whl",
-          "sha256": "eedf82a470ebe7d010f1872c17237c79ab04097948800029994fa458e52fb4b4"
+          "url": "https://files.pythonhosted.org/packages/25/b7/b3c4270a11414cb22c6352ebc7a83aaa3712043be29daa05018fd5a5c956/distro-1.5.0-py2.py3-none-any.whl",
+          "sha256": "df74eed763e18d10d0da624258524ae80486432cd17392d9c3d96f5e83cd2799"
         }
       ]
     },
@@ -42,8 +42,13 @@
       "sources": [
         {
           "type": "file",
-          "url": "https://files.pythonhosted.org/packages/e8/74/6e4f91745020f967d09332bb2b8b9b10090957334692eb88ea4afe91b77f/urllib3-1.25.8-py2.py3-none-any.whl",
-          "sha256": "2f3db8b19923a873b3e5256dc9c2dedfa883e33d87c690d9c7913e1f40673cdc"
+          "url": "https://files.pythonhosted.org/packages/57/2b/26e37a4b034800c960a00c4e1b3d9ca5d7014e983e6e729e33ea2f36426c/certifi-2020.4.5.1-py2.py3-none-any.whl",
+          "sha256": "1d987a998c75633c40847cc966fcf5904906c920a7f17ef374f5aa4282abd304"
+        },
+        {
+          "type": "file",
+          "url": "https://files.pythonhosted.org/packages/e1/e5/df302e8017440f111c11cc41a6b432838672f5a70aa29227bf58149dc72f/urllib3-1.25.9-py2.py3-none-any.whl",
+          "sha256": "88206b0eb87e6d677d424843ac5209e3fb9d0190d0ee169599165ec25e9d9115"
         },
         {
           "type": "file",
@@ -59,11 +64,6 @@
           "type": "file",
           "url": "https://files.pythonhosted.org/packages/89/e3/afebe61c546d18fb1709a61bee788254b40e736cff7271c7de5de2dc4128/idna-2.9-py2.py3-none-any.whl",
           "sha256": "a068a21ceac8a4d63dbfd964670474107f541babbd2250d61922f029858365fa"
-        },
-        {
-          "type": "file",
-          "url": "https://files.pythonhosted.org/packages/b9/63/df50cac98ea0d5b006c55a399c3bf1db9da7b5a24de7890bc9cfd5dd9e99/certifi-2019.11.28-py2.py3-none-any.whl",
-          "sha256": "017c25db2a153ce562900032d5bc68e9f191e44e9a0f762f373977de9df1fbb3"
         }
       ]
     },
@@ -76,8 +76,8 @@
       "sources": [
         {
           "type": "file",
-          "url": "https://files.pythonhosted.org/packages/e7/f9/f0b53f88060247251bf481fa6ea62cd0d25bf1b11a87888e53ce5b7c8ad2/pytz-2019.3-py2.py3-none-any.whl",
-          "sha256": "1c557d7d0e871de1f5ccd5833f60fb2550652da6be2693c1e02300743d21500d"
+          "url": "https://files.pythonhosted.org/packages/4f/a4/879454d49688e2fad93e59d7d4efda580b783c745fd2ec2a3adf87b0808d/pytz-2020.1-py2.py3-none-any.whl",
+          "sha256": "a494d53b6d39c3c6e44c3bec237336e14305e4f29bbf800b599253057fbb79ed"
         }
       ]
     },
@@ -90,8 +90,8 @@
       "sources": [
         {
           "type": "file",
-          "url": "https://files.pythonhosted.org/packages/d4/30/0083f0e484902d118927236497c5f55c14a46c2a0e1b95083d26e5608371/peewee-3.13.1.tar.gz",
-          "sha256": "9492af4d1f8e18a7fa0e930960315b38931286ea0f1659bbd5503456cffdacde"
+          "url": "https://files.pythonhosted.org/packages/e1/3e/a21e7268fa39756cdbd6d86af78ff1c0a92b84d6dbfadff431e9e3b9e1d3/peewee-3.13.3.tar.gz",
+          "sha256": "1269a9736865512bd4056298003aab190957afe07d2616cf22eaf56cb6398369"
         }
       ]
     },
