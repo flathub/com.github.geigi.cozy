@@ -134,23 +134,23 @@
       ]
     },
     {
-      "name" : "libhandy",
-      "buildsystem" : "meson",
-      "config-opts" : [
-          "-Dprofiling=false",
-          "-Dintrospection=enabled",
-          "-Dgtk_doc=false",
-          "-Dtests=false",
-          "-Dexamples=false",
-          "-Dvapi=false",
-          "-Dglade_catalog=disabled"
+      "name": "libhandy",
+      "buildsystem": "meson",
+      "config-opts": [
+        "-Dprofiling=false",
+        "-Dintrospection=enabled",
+        "-Dgtk_doc=false",
+        "-Dtests=false",
+        "-Dexamples=false",
+        "-Dvapi=false",
+        "-Dglade_catalog=disabled"
       ],
-      "sources" : [
-          {
-              "type" : "git",
-              "url" : "https://gitlab.gnome.org/GNOME/libhandy",
-              "tag" : "1.0.2"
-          }
+      "sources": [
+        {
+          "type": "git",
+          "url": "https://gitlab.gnome.org/GNOME/libhandy",
+          "tag": "1.0.2"
+        }
       ]
     },
     {
@@ -159,8 +159,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/geigi/cozy/archive/0.7.5.tar.gz",
-          "sha256": "bb43d3f277c643cc082cfd30769e17287f6f642f6710d6ab776089418276ad9c"
+          "url": "https://github.com/geigi/cozy/archive/0.7.6.tar.gz",
+          "sha256": "2c64f82eb45ebd43460d903dc9eeb4bf466c368ef74cc21c13cd798007392e01"
         }
       ]
     }
