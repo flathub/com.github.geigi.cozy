@@ -51,82 +51,82 @@
       "name": "python3-peewee",
       "buildsystem": "simple",
       "build-commands": [
-        "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"peewee\""
+          "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"peewee\" --no-build-isolation"
       ],
       "sources": [
-        {
-          "type": "file",
-          "url": "https://files.pythonhosted.org/packages/86/19/819b89c4bd6ad3c5e0f9564029256466c5558b08979624fc905337c2aa4e/peewee-3.14.0.tar.gz",
-          "sha256": "59c5ef43877029b9133d87001dcc425525de231d1f983cece8828197fb4b84fa"
-        }
-      ]
+          {
+              "type": "file",
+              "url": "https://files.pythonhosted.org/packages/c9/51/3b2ded25a1cd51d1096bda8e0d1474712fe71efd374ae39b86c73a83d648/peewee-3.14.4.tar.gz",
+              "sha256": "9e356b327c2eaec6dd42ecea6f4ddded025793dba906a3d065a0452e726c51a2"
+          }
+      ]  
     },
     {
       "name": "python3-pytz",
       "buildsystem": "simple",
       "build-commands": [
-        "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pytz\""
+          "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pytz\" --no-build-isolation"
       ],
       "sources": [
-        {
-          "type": "file",
-          "url": "https://files.pythonhosted.org/packages/12/f8/ff09af6ff61a3efaad5f61ba5facdf17e7722c4393f7d8a66674d2dbd29f/pytz-2020.4-py2.py3-none-any.whl",
-          "sha256": "5c55e189b682d420be27c6995ba6edce0c0a77dd67bfbe2ae6607134d5851ffd"
-        }
-      ]
+          {
+              "type": "file",
+              "url": "https://files.pythonhosted.org/packages/b0/61/eddc6eb2c682ea6fd97a7e1018a6294be80dba08fa28e7a3570148b4612d/pytz-2021.1.tar.gz",
+              "sha256": "83a4a90894bf38e243cf052c8b58f381bfe9a7a483f6a9cab140bc7f702ac4da"
+          }
+      ]  
     },
     {
       "name": "python3-requests",
       "buildsystem": "simple",
       "build-commands": [
-        "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"requests\""
+          "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"requests\" --no-build-isolation"
       ],
       "sources": [
-        {
-          "type": "file",
-          "url": "https://files.pythonhosted.org/packages/a2/38/928ddce2273eaa564f6f50de919327bf3a00f091b5baba8dfa9460f3a8a8/idna-2.10-py2.py3-none-any.whl",
-          "sha256": "b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0"
-        },
-        {
-          "type": "file",
-          "url": "https://files.pythonhosted.org/packages/39/fc/f91eac5a39a65f75a7adb58eac7fa78871ea9872283fb9c44e6545998134/requests-2.25.0-py2.py3-none-any.whl",
-          "sha256": "e786fa28d8c9154e6a4de5d46a1d921b8749f8b74e28bde23768e5e16eece998"
-        },
-        {
-          "type": "file",
-          "url": "https://files.pythonhosted.org/packages/f5/71/45d36a8df68f3ebb098d6861b2c017f3d094538c0fb98fa61d4dc43e69b9/urllib3-1.26.2-py2.py3-none-any.whl",
-          "sha256": "d8ff90d979214d7b4f8ce956e80f4028fc6860e4431f731ea4a8c08f23f99473"
-        },
-        {
-          "type": "file",
-          "url": "https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl",
-          "sha256": "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"
-        },
-        {
-          "type": "file",
-          "url": "https://files.pythonhosted.org/packages/c1/6f/3d85f0850962279a7e4c622695d7b3171e95ac65308a57d3b29738b27149/certifi-2020.11.8-py2.py3-none-any.whl",
-          "sha256": "1f422849db327d534e3d0c5f02a263458c3955ec0aae4ff09b95f195c59f4edd"
-        }
+          {
+              "type": "file",
+              "url": "https://files.pythonhosted.org/packages/ea/b7/e0e3c1c467636186c39925827be42f16fee389dc404ac29e930e9136be70/idna-2.10.tar.gz",
+              "sha256": "b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6"
+          },
+          {
+              "type": "file",
+              "url": "https://files.pythonhosted.org/packages/cb/cf/871177f1fc795c6c10787bc0e1f27bb6cf7b81dbde399fd35860472cecbc/urllib3-1.26.4.tar.gz",
+              "sha256": "e7b021f7241115872f92f43c6508082facffbd1c048e3c6e2bb9c2a157e28937"
+          },
+          {
+              "type": "file",
+              "url": "https://files.pythonhosted.org/packages/06/a9/cd1fd8ee13f73a4d4f491ee219deeeae20afefa914dfb4c130cfc9dc397a/certifi-2020.12.5.tar.gz",
+              "sha256": "1a4995114262bffbc2413b159f2a1a480c969de6e6eb13ee966d470af86af59c"
+          },
+          {
+              "type": "file",
+              "url": "https://files.pythonhosted.org/packages/6b/47/c14abc08432ab22dc18b9892252efaf005ab44066de871e72a38d6af464b/requests-2.25.1.tar.gz",
+              "sha256": "27973dd4a904a4f13b263a19c866c13b92a39ed1c964655f025f3f8d3d75b804"
+          },
+          {
+              "type": "file",
+              "url": "https://files.pythonhosted.org/packages/ee/2d/9cdc2b527e127b4c9db64b86647d567985940ac3698eeabc7ffaccb4ea61/chardet-4.0.0.tar.gz",
+              "sha256": "0d6f53a15db4120f2b08c94f11e7d93d2c911ee118b6b30a04ec3ee8310179fa"
+          }
       ]
     },
     {
       "name": "python3-packaging",
       "buildsystem": "simple",
       "build-commands": [
-        "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"packaging\""
+          "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"packaging\" --no-build-isolation"
       ],
       "sources": [
-        {
-          "type": "file",
-          "url": "https://files.pythonhosted.org/packages/8a/bb/488841f56197b13700afd5658fc279a2025a39e22449b7cf29864669b15d/pyparsing-2.4.7-py2.py3-none-any.whl",
-          "sha256": "ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b"
-        },
-        {
-          "type": "file",
-          "url": "https://files.pythonhosted.org/packages/28/87/8edcf555adaf60d053ead881bc056079e29319b643ca710339ce84413136/packaging-20.7-py2.py3-none-any.whl",
-          "sha256": "eb41423378682dadb7166144a4926e443093863024de508ca5c9737d6bc08376"
-        }
-      ]
+          {
+              "type": "file",
+              "url": "https://files.pythonhosted.org/packages/86/3c/bcd09ec5df7123abcf695009221a52f90438d877a2f1499453c6938f5728/packaging-20.9.tar.gz",
+              "sha256": "5b327ac1320dc863dca72f4514ecc086f31186744b84a230374cc1fd776feae5"
+          },
+          {
+              "type": "file",
+              "url": "https://files.pythonhosted.org/packages/c1/47/dfc9c342c9842bbe0036c7f763d2d6686bcf5eb1808ba3e170afdb282210/pyparsing-2.4.7.tar.gz",
+              "sha256": "c203ec8783bf771a155b207279b9bccb8dea02d8f0c9e5f8ead507bc3246ecc1"
+          }
+      ]  
     },
     {
       "name": "libhandy",
@@ -144,7 +144,7 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/GNOME/libhandy",
-          "tag": "1.0.2"
+          "tag": "1.0.3"
         }
       ]
     },
