@@ -150,6 +150,21 @@
       ]
     },
     {
+      "name": "granite",
+      "buildsystem": "meson",
+      "cleanup": [
+        "/bin",
+        "/share/applications"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://github.com/elementary/granite/archive/5.5.0.tar.gz",
+          "sha256": "0c376520c7d462fca05213a14970ee1075fea4a78062a33b47529e2647cd5557"
+        }
+      ]
+    },
+    {
       "name": "cozy",
       "buildsystem": "meson",
       "sources": [
