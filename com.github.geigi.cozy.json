@@ -167,8 +167,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/geigi/cozy/archive/1.2.0.tar.gz",
-          "sha256": "5dbe1fb010bcc8b7a5b925aa2653808fdb14b58f87aad0cac8b0964d91eefc21"
+          "url": "https://github.com/geigi/cozy/archive/1.2.1.tar.gz",
+          "sha256": "5522dd3e2aa8a75478515c4ae299e71fa32a919703cc4a532fba797363cc5844"
         }
       ]
     }
