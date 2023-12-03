@@ -131,24 +131,13 @@
       ]
     },
     {
-      "name": "libdazzle",
-      "buildsystem": "meson",
-      "sources": [
-        {
-          "type": "git",
-          "url": "https://gitlab.gnome.org/GNOME/libdazzle.git",
-          "tag": "3.44.0"
-        }
-      ]
-    },
-    {
       "name": "cozy",
       "buildsystem": "meson",
       "sources": [
         {
-          "type": "archive",
-          "url": "https://github.com/geigi/cozy/archive/1.2.1.tar.gz",
-          "sha256": "5522dd3e2aa8a75478515c4ae299e71fa32a919703cc4a532fba797363cc5844"
+          "type": "git",
+          "url": "https://github.com/geigi/cozy.git",
+          "branch": "master"
         }
       ]
     }
