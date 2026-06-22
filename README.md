@@ -34,7 +34,3 @@ flatpak run com.github.geigi.cozy
 git clone git@github.com:flathub/com.github.geigi.cozy.git
 flatpak run org.flatpak.Builder build-dir --user --ccache --force-clean --install com.github.geigi.cozy.json
 ```
-
----
-
-**Technologies**: GNOME, GTK4, Libadwaita, Python
