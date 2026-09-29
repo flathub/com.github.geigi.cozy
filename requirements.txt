@@ -1,0 +1,8 @@
+# Use the following command to rebuild Python modules
+# flatpak-pip-generator -r requirements.txt -o python3-modules --runtime=org.gnome.Sdk//51
+
+distro
+mutagen
+peewee
+pytz
+requests
