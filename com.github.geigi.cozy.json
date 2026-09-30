@@ -29,6 +29,7 @@
             "sources": [
                 {
                     "type": "archive",
+                    "archive-type": "tar-gzip",
                     "url": "https://api.github.com/repos/geigi/cozy/tarball/1.3.0",
                     "sha256": "69a47257b0c060969ab1f26cbdb2e58b068f5441812facdfc3ec63d715d3acc8",
                     "x-checker-data": {
